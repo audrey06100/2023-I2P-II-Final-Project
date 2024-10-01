@@ -1,0 +1,939 @@
+# depslib dependency file v1.0
+1687223920 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\background.c
+	"background.h"
+	"monkey.h"
+
+1704722235 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\background.h
+	"DataCenter.h"
+	"Object.h"
+	"global.h"
+
+1704779192 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\global.h
+	<iostream>
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/altime.h"
+	"allegro5/bitmap.h"
+	"allegro5/bitmap_draw.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap_lock.h"
+	"allegro5/blender.h"
+	"allegro5/clipboard.h"
+	"allegro5/color.h"
+	"allegro5/config.h"
+	"allegro5/cpu.h"
+	"allegro5/debug.h"
+	"allegro5/display.h"
+	"allegro5/drawing.h"
+	"allegro5/error.h"
+	"allegro5/events.h"
+	"allegro5/file.h"
+	"allegro5/fixed.h"
+	"allegro5/fmaths.h"
+	"allegro5/fshook.h"
+	"allegro5/fullscreen_mode.h"
+	"allegro5/haptic.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/memory.h"
+	"allegro5/monitor.h"
+	"allegro5/mouse.h"
+	"allegro5/mouse_cursor.h"
+	"allegro5/path.h"
+	"allegro5/render_state.h"
+	"allegro5/shader.h"
+	"allegro5/system.h"
+	"allegro5/threads.h"
+	"allegro5/timer.h"
+	"allegro5/tls.h"
+	"allegro5/touch_input.h"
+	"allegro5/transformations.h"
+	"allegro5/utf8.h"
+	"allegro5/alcompat.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alandroidcfg.h"
+	"allegro5/platform/alraspberrypicfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/allegro_sdl_config.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\platform\alplatf.h
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\platform\alandroidcfg.h
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\platform\alraspberrypicfg.h
+	<fcntl.h>
+	<unistd.h>
+	<sys/types.h>
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\platform\alunix.h
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\platform\allegro_sdl_config.h
+	<fcntl.h>
+	<unistd.h>
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+	<limits.h>
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\altime.h
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\color.h
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\bitmap_draw.h
+	"allegro5/bitmap.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1654507524 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\path.h
+	"allegro5/base.h"
+	"allegro5/utf8.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\utf8.h
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\bitmap_lock.h
+	"allegro5/bitmap.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\blender.h
+	"allegro5/base.h"
+	"allegro5/color.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\clipboard.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/utf8.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\display.h
+	"allegro5/bitmap.h"
+	"allegro5/color.h"
+	"allegro5/events.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\events.h
+	"allegro5/altime.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\config.h
+	"allegro5/file.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\cpu.h
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\drawing.h
+	"allegro5/color.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\error.h
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\fixed.h
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\inline\fmaths.inl
+	"allegro5/error.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/file.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\fullscreen_mode.h
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\haptic.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/events.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/mouse.h"
+	"allegro5/touch_input.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\joystick.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+	"allegro5/keycodes.h"
+
+1654507524 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\keycodes.h
+
+1654507524 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\mouse.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1654507524 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\touch_input.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\memory.h
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\monitor.h
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\mouse_cursor.h
+	"allegro5/base.h"
+
+1654507524 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\render_state.h
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\shader.h
+	"allegro5/base.h"
+	"allegro5/transformations.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\transformations.h
+	"allegro5/display.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\threads.h
+	"allegro5/altime.h"
+
+1654507524 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\timer.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1654507524 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\tls.h
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\alcompat.h
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1654507524 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\allegro_image.h
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\allegro_audio.h
+	"allegro5/allegro.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\allegro_acodec.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_audio.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\allegro_font.h
+	"allegro5/allegro.h"
+
+1654507524 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\allegro_ttf.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_font.h"
+
+1704473373 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\monkey.h
+	"global.h"
+
+1703655968 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\gamewindow.c
+	"GameWindow.h"
+
+1704746017 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\gamewindow.h
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<queue>
+	"DataCenter.h"
+	"global.h"
+	"Menu.h"
+	"Shop.h"
+	"Game.h"
+	"Penguin.h"
+	"Background.h"
+	"FallingItem.h"
+	"Coin.h"
+	"SnowBall.h"
+	"Fish.h"
+	"IceCube.h"
+	"Seal.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\allegro_video.h
+	"allegro5/allegro5.h"
+	"allegro5/allegro_audio.h"
+
+1654507522 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\allegro\include\allegro5\allegro5.h
+	"allegro.h"
+
+1704473404 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\scene.h
+	"global.h"
+	"monkey.h"
+	"Background.h"
+
+1687202330 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\global.c
+	"global.h"
+
+1611373668 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\main.c
+	"GameWindow.h"
+
+1704398969 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\monkey.c
+	"monkey.h"
+
+1687186422 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\object.c
+	<math.h>
+	"object.h"
+
+1704722386 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\object.h
+
+1687186422 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\object.cpp
+	<math.h>
+	"object.h"
+
+1687215580 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\scene.c
+	"scene.h"
+
+1702044390 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\algif5\src\algif.cpp
+	"algif.h"
+	<allegro5/allegro_primitives.h>
+	<math.h>
+
+1704465387 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\algif5\src\algif.h
+	<allegro5/allegro5.h>
+
+1637584954 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\algif5\src\bitmap.cpp
+	"algif.h"
+
+1637584954 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\algif5\src\gif.cpp
+	"algif.h"
+	<stdlib.h>
+	<string.h>
+
+1423965418 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\algif5\src\lzw.cpp
+	"algif.h"
+
+1704226405 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\datacenter.cpp
+	"DataCenter.h"
+
+1704727114 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\datacenter.h
+	<vector>
+	<queue>
+	"Penguin.h"
+	"FallingItem.h"
+
+1704732397 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\penguin.h
+	<iostream>
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	"./algif5/src/algif.h"
+	<vector>
+	"global.h"
+
+1704440769 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\fallingobj.cpp
+
+1704779255 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\game.cpp
+	"Game.h"
+
+1704779205 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\global.cpp
+	"global.h"
+
+1704534473 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\fallingobj.h
+	"Object.h"
+	"global.h"
+	"Game.h"
+
+1704780675 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\game.h
+	<vector>
+	"global.h"
+	"DataCenter.h"
+
+1704466333 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\main.cpp
+	"GameWindow.h"
+
+1704722367 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\menu.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_primitives.h>
+	"Object.h"
+	"global.h"
+
+1704559953 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\shop.h
+	"global.h"
+
+1704778479 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\menu.cpp
+	"Menu.h"
+
+1704757680 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\background.cpp
+	"Background.h"
+
+1704783585 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\gamewindow.cpp
+	"GameWindow.h"
+
+1704469199 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\monkey.cpp
+	"monkey.h"
+
+1704411800 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\shop.cpp
+
+1704757468 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\penguin.cpp
+	"Penguin.h"
+	"DataCenter.h"
+	"Game.h"
+
+1704476937 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\about.cpp
+
+1704533502 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\circle.cpp
+
+1704749794 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\fallingitem.h
+	<queue>
+	"Object.h"
+	"global.h"
+
+1704756537 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\fallingitem.cpp
+	"FallingItem.h"
+
+1704657634 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\item.h
+
+1704657800 source:c:\users\anne-mei\desktop\i2p_ii_2023_final_project\item.cpp
+
+1704722250 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\coin.h
+	"FallingItem.h"
+
+1704746428 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\snowball.h
+	"FallingItem.h"
+
+1704722283 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\fish.h
+	"FallingItem.h"
+
+1704722351 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\icecube.h
+	"FallingItem.h"
+
+1704719969 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\bonusletters.h
+	"FallingItem.h"
+
+1704780800 c:\users\anne-mei\desktop\i2p_ii_2023_final_project\seal.h
+	"FallingItem.h"
+
+1702044390 source:c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\algif5\src\algif.cpp
+	"algif.h"
+	<allegro5/allegro_primitives.h>
+	<math.h>
+
+1704465387 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\algif5\src\algif.h
+	<allegro5/allegro5.h>
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\allegro5.h
+	"allegro.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/altime.h"
+	"allegro5/bitmap.h"
+	"allegro5/bitmap_draw.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap_lock.h"
+	"allegro5/blender.h"
+	"allegro5/clipboard.h"
+	"allegro5/color.h"
+	"allegro5/config.h"
+	"allegro5/cpu.h"
+	"allegro5/debug.h"
+	"allegro5/display.h"
+	"allegro5/drawing.h"
+	"allegro5/error.h"
+	"allegro5/events.h"
+	"allegro5/file.h"
+	"allegro5/fixed.h"
+	"allegro5/fmaths.h"
+	"allegro5/fshook.h"
+	"allegro5/fullscreen_mode.h"
+	"allegro5/haptic.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/memory.h"
+	"allegro5/monitor.h"
+	"allegro5/mouse.h"
+	"allegro5/mouse_cursor.h"
+	"allegro5/path.h"
+	"allegro5/render_state.h"
+	"allegro5/shader.h"
+	"allegro5/system.h"
+	"allegro5/threads.h"
+	"allegro5/timer.h"
+	"allegro5/tls.h"
+	"allegro5/touch_input.h"
+	"allegro5/transformations.h"
+	"allegro5/utf8.h"
+	"allegro5/alcompat.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alandroidcfg.h"
+	"allegro5/platform/alraspberrypicfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/allegro_sdl_config.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\platform\alplatf.h
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\platform\alandroidcfg.h
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\platform\alraspberrypicfg.h
+	<fcntl.h>
+	<unistd.h>
+	<sys/types.h>
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\platform\alunix.h
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\platform\allegro_sdl_config.h
+	<fcntl.h>
+	<unistd.h>
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+	<limits.h>
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\altime.h
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\color.h
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\bitmap_draw.h
+	"allegro5/bitmap.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1654507524 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\path.h
+	"allegro5/base.h"
+	"allegro5/utf8.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\utf8.h
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\bitmap_lock.h
+	"allegro5/bitmap.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\blender.h
+	"allegro5/base.h"
+	"allegro5/color.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\clipboard.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/utf8.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\display.h
+	"allegro5/bitmap.h"
+	"allegro5/color.h"
+	"allegro5/events.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\events.h
+	"allegro5/altime.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\config.h
+	"allegro5/file.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\cpu.h
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\drawing.h
+	"allegro5/color.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\error.h
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\fixed.h
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\inline\fmaths.inl
+	"allegro5/error.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/file.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\fullscreen_mode.h
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\haptic.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/events.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/mouse.h"
+	"allegro5/touch_input.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\joystick.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+	"allegro5/keycodes.h"
+
+1654507524 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\keycodes.h
+
+1654507524 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\mouse.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1654507524 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\touch_input.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\memory.h
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\monitor.h
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\mouse_cursor.h
+	"allegro5/base.h"
+
+1654507524 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\render_state.h
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\shader.h
+	"allegro5/base.h"
+	"allegro5/transformations.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\transformations.h
+	"allegro5/display.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\threads.h
+	"allegro5/altime.h"
+
+1654507524 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\timer.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1654507524 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\tls.h
+	"allegro5/base.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\alcompat.h
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1637584954 source:c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\algif5\src\bitmap.cpp
+	"algif.h"
+
+1637584954 source:c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\algif5\src\gif.cpp
+	"algif.h"
+	<stdlib.h>
+	<string.h>
+
+1423965418 source:c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\algif5\src\lzw.cpp
+	"algif.h"
+
+1704757680 source:c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\background.cpp
+	"Background.h"
+
+1704722235 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\background.h
+	"DataCenter.h"
+	"Object.h"
+	"global.h"
+
+1704727114 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\datacenter.h
+	<vector>
+	<queue>
+	"Penguin.h"
+	"FallingItem.h"
+
+1704732397 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\penguin.h
+	<iostream>
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	"./algif5/src/algif.h"
+	<vector>
+	"global.h"
+
+1654507524 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\allegro_image.h
+	"allegro5/base.h"
+
+1704779192 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\global.h
+	<iostream>
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\allegro_audio.h
+	"allegro5/allegro.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\allegro_acodec.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_audio.h"
+
+1654507522 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\allegro_font.h
+	"allegro5/allegro.h"
+
+1654507524 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\allegro\include\allegro5\allegro_ttf.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_font.h"
+
+1704749794 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\fallingitem.h
+	<queue>
+	"Object.h"
+	"global.h"
+
+1704722386 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\object.h
+
+1704226405 source:c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\datacenter.cpp
+	"DataCenter.h"
+
+1704756537 source:c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\fallingitem.cpp
+	"FallingItem.h"
+
+1704779255 source:c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\game.cpp
+	"Game.h"
+
+1704780675 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\game.h
+	<vector>
+	"global.h"
+	"DataCenter.h"
+
+1704783585 source:c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\gamewindow.cpp
+	"GameWindow.h"
+
+1704746017 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\gamewindow.h
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<queue>
+	"DataCenter.h"
+	"global.h"
+	"Menu.h"
+	"Shop.h"
+	"Game.h"
+	"Penguin.h"
+	"Background.h"
+	"FallingItem.h"
+	"Coin.h"
+	"SnowBall.h"
+	"Fish.h"
+	"IceCube.h"
+	"Seal.h"
+
+1704722367 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\menu.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_primitives.h>
+	"Object.h"
+	"global.h"
+
+1704559953 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\shop.h
+	"global.h"
+
+1704722250 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\coin.h
+	"FallingItem.h"
+
+1704746428 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\snowball.h
+	"FallingItem.h"
+
+1704722283 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\fish.h
+	"FallingItem.h"
+
+1704722351 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\icecube.h
+	"FallingItem.h"
+
+1704780800 c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\seal.h
+	"FallingItem.h"
+
+1704779205 source:c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\global.cpp
+	"global.h"
+
+1704466333 source:c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\main.cpp
+	"GameWindow.h"
+
+1704778479 source:c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\menu.cpp
+	"Menu.h"
+
+1704757468 source:c:\users\anne-mei\documents\nthu\大三上\程設二\i2p_ii_2023_final_project\penguin.cpp
+	"Penguin.h"
+	"DataCenter.h"
+	"Game.h"
+
