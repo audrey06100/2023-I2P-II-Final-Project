@@ -1,2 +1,3 @@
-# I2PII-Final-Project
-Penguin dodge game
+# Penguin dodge game
+
+![plot](./screenshots.png)
